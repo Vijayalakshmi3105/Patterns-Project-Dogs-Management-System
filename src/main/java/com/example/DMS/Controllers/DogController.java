@@ -31,6 +31,7 @@ public class DogController {
 	@RequestMapping("dogHome")
 	public ModelAndView home() {
 		mv.setViewName("home.html");
+		//just updated here
 		return mv;
 	}
 
